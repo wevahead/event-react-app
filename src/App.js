@@ -18,7 +18,7 @@ function App() {
           <input placeholder='New Date...'></input>
           <input placeholder='Title...'></input>            
           <input placeholder='Content...'></input>
-          <button>SAVE</button>
+          <button disabled={!''}>SAVE</button>
         </form>
       </div>
       <div>
@@ -28,3 +28,7 @@ function App() {
   )
 }
 export default App;
+
+//how to pass an event
+//what would default value be in this situation?
+
